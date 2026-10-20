@@ -2,6 +2,15 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#185b3f"><meta name="description" content="Local 659 — member resources, assignments, notices, contacts and documents.">
 <meta name="robots" content="noindex,nofollow"><title>Local 659 — Resource Center Preview</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Local 659">
+<meta property="og:title" content="Local 659 | Member Resource Center">
+<meta property="og:description" content="An independent Local 659 member resource center preview for notes, assignments, contacts, agreements, claims and extra board off-day information.">
+<meta property="og:url" content="https://looseboltstudio.github.io/Junk/local659-preview/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Local 659 | Member Resource Center">
+<meta name="twitter:description" content="Independent Local 659 resource center preview with notes, assignments, contacts and member reference information.">
+
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext x='32' y='44' fill='%231b6847' text-anchor='middle' font-size='35' font-family='Arial' font-weight='bold'%3E659%3C/text%3E%3C/svg%3E">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap');
@@ -101,7 +110,40 @@ html[data-mode="dark"] .filter{color:var(--ink)}
 <body><a class="skip-link" href="#main">Skip to content</a>
 <div class="preview-bar"><div class="shell preview-inner"><span><b>DESIGN PREVIEW</b> · Browser-only demo · No real access control</span><div><button class="preview-action" type="button" id="demo-member">Preview member view</button><button class="preview-action" type="button" id="demo-admin">Admin editor</button></div></div></div>
 <header class="site-head"><div class="shell head-inner"><a href="#/home" class="brand" id="brand-link"><span><strong>LOCAL 659</strong><small>Member Resource Center</small></span></a><nav id="site-nav" class="nav" aria-label="Main menu"></nav><div class="head-controls"><button type="button" class="mode-toggle" id="mode-toggle" data-action="toggle-dark" aria-pressed="false" aria-label="Switch to dark mode" title="Switch to dark mode"><span class="mode-icon" aria-hidden="true">☾</span><span class="mode-label">Dark</span></button><button class="menu-button" id="nav-toggle" aria-controls="site-nav" aria-expanded="false">☰ <span>Menu</span></button></div></div></header>
-<main id="main" tabindex="-1"></main><div id="overlay" aria-live="polite"></div><div id="notice" role="status" aria-live="polite"></div>
+<main id="main" tabindex="-1">
+  <!-- Static first-paint / no-JavaScript content. The interactive preview replaces
+       this content on load; keeping it in HTML allows non-JS readers and crawlers
+       to understand the site without exposing member-only data. -->
+  <section class="hero" aria-labelledby="static-site-heading">
+    <div class="shell">
+      <div class="hero-identity">
+        <div class="hero-wordmark">LOCAL <span>659</span></div>
+        <div class="hero-identity-sub">MEMBER RESOURCE CENTER</div>
+      </div>
+      <div class="eyebrow">An independent member reference</div>
+      <h1 id="static-site-heading">The information you need. In one place.</h1>
+      <p class="lead">Local 659 is a proposed resource center to help members find notes and updates, assignment information, contacts, agreements, claim references, and extra board off-day information in one place.</p>
+      <p class="muted">This site is a browser-only design preview, not an official source or a secure member portal. Always confirm current information with authorized sources.</p>
+    </div>
+  </section>
+  <section class="section" id="static-resources" aria-labelledby="static-resources-heading">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Planned resources</div>
+          <h2 id="static-resources-heading">Member information and references</h2>
+          <p>The interactive demonstration includes sections for notes and updates, job assignments, contacts, agreements and files, suggested claims, and extra board off days.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <article class="card"><h3>Notes &amp; Updates</h3><p>Announcements, reminders, and information for members.</p></article>
+        <article class="card"><h3>Assignments &amp; Contacts</h3><p>Reference schedules, assignment notices, and useful contact information.</p></article>
+        <article class="card"><h3>Agreements &amp; Resources</h3><p>Reference documents, claim information, forms, and extra board off-day schedules.</p></article>
+      </div>
+      <noscript><p class="alert info" style="margin-top:22px">JavaScript is disabled. This introduction remains readable, but interactive pages and member-preview features require JavaScript.</p></noscript>
+    </div>
+  </section>
+</main><div id="overlay" aria-live="polite"></div><div id="notice" role="status" aria-live="polite"></div>
 <footer class="foot"><div class="shell foot-inner"><div><strong>Local 659</strong><span>Independent member resource website · Demonstration only</span></div><span>Information should be checked against current official documents.</span></div></footer>
 <script>
 (()=>{'use strict';
